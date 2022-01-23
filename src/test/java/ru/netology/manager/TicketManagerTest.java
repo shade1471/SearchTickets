@@ -47,7 +47,6 @@ class TicketManagerTest {
         Ticket[] expected = {five, seven};
 
         assertArrayEquals(expected, actual);
-
     }
 
     @Test
@@ -80,7 +79,6 @@ class TicketManagerTest {
         Ticket[] expected = {three, two, one};
 
         assertArrayEquals(expected, actual);
-
     }
 
     @Test
@@ -97,7 +95,6 @@ class TicketManagerTest {
         Ticket[] expected = {six, four};
 
         assertArrayEquals(expected, actual);
-
     }
 
     @Test
@@ -114,7 +111,6 @@ class TicketManagerTest {
         Ticket[] expected = {};
 
         assertArrayEquals(expected, actual);
-
     }
 
 }
